@@ -1,0 +1,88 @@
+/* ! Line Art Background  */
+
+.line-art-1 {
+  position: absolute;
+  left: 0;
+  top: -70px;
+  z-index: -1;
+}
+
+.line-art-2 {
+  height: 100%;
+  position: absolute;
+  z-index: -1;
+  top: 0;
+  right: 0;
+}
+
+.line-art-3 {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 900px;
+}
+
+.line-art-4 {
+  position: absolute;
+  left: 0;
+  height: 100%;
+  z-index: -1;
+}
+
+.line-art-5 {
+  position: absolute;
+  right: 0;
+  height: 100%;
+  z-index: -1;
+}
+
+.line-art-6 {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 500px;
+}
+
+.line-art-7 {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 500px;
+}
+
+.line-art-8 {
+  height: 100%;
+  position: absolute;
+  z-index: -1;
+  top: 0;
+  left: 0;
+}
+
+.line-art-9 {
+  width: 1400px;
+  position: absolute;
+  z-index: -1;
+  top: 0;
+  right: 0;
+}
+
+.line-art-10 {
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.line-art-11 {
+  height: 100%;
+  position: absolute;
+  top: 30px;
+  right: 0;
+}
+
+.line-art-12 {
+  height: 100%;
+  position: absolute;
+  top: 0;
+  right: 0;
+}

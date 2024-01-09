@@ -84,9 +84,9 @@ Route::post('/login', [AuthController::class, 'login']);
 
 Route::get('/logout', [AuthController::class, 'logout'])->name('logout');
 
-// Route::get('/forgot-password', [AuthController::class, 'showForgotPasswordForm'])->name('forgot-password');
-// Route::post('/forgot-password', [AuthController::class, 'sendResetLink'])->name('forgot-password');
-// Route::post('/reset-password', [AuthController::class, 'reset'])->name('reset-password');
+Route::get('/forgot-password', [AuthController::class, 'showForgotPasswordForm'])->name('forgot-password');
+Route::post('/forgot-password', [AuthController::class, 'sendResetLink'])->name('forgot-password');
+Route::post('/reset-password', [AuthController::class, 'reset'])->name('reset-password');
 
 //search routes
 Route::get('/search', [UserController::class, 'searchAll'])->name('search');
